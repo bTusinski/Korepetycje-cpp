@@ -4,10 +4,11 @@ using namespace std;
 
 int main()
 {
-    int n, h, max_h = 0, licznik = 0;
-    cin >> n;
-    int tab[1000];
+    const int MAX = 1000000;
+    int n, podpalone_zapalki = 0;
 
+    int * tab = new int[MAX];
+    cin >> n;
 
     for (int i = 0; i < n; i++)
     {
@@ -18,15 +19,15 @@ int main()
     {
         if (tab[i] >= tab[i + 1])
         {
-            licznik++;
+            podpalone_zapalki++;
         }
         else if (tab[i] >= tab[i - 1])
         {
-            licznik++;
+            podpalone_zapalki++;
         }
     }
 
-    cout << licznik;
+    cout << podpalone_zapalki;
 
     return 0;
 }

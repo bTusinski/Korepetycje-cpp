@@ -1,3 +1,2 @@
 ﻿  Zapalki.cpp
-C:\Users\Admin\source\repos\Zapalki\Zapalki\Zapalki.cpp(7,12): warning C4101: "h": lokalna zmienna, do której nie istnieje odwołanie
-  Zapalki.vcxproj -> C:\Users\Admin\source\repos\Zapalki\x64\Debug\Zapalki.exe
+  Zapalki.vcxproj -> C:\Users\Admin\source\repos\KorepetycjeCpp\Zapalki\x64\Debug\Zapalki.exe
